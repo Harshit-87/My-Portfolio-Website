@@ -716,3 +716,8 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+
+.combinedDiv{
+  display: flex;
+  gap: 2px;
+}
