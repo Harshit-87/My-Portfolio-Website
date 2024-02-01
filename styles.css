@@ -24,7 +24,7 @@
 
 @media (max-width: 500px) {
   .container{
-    width: 480px;
+    width: 350px;
   }
 }
 
@@ -203,6 +203,12 @@ a{
     filter:grayscale(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
+  }
+
+  @media (max-width: 500px) {
+    .user-image{
+      width: 70%;
+    }
   }
 
   .user-image img{
@@ -558,7 +564,7 @@ a{
     flex-wrap: nowrap;
   }
 
-  @media (max-width: 900px){
+  @media (max-width: 500px){
     .skills-container{
       flex-wrap: wrap;
     }
@@ -570,9 +576,9 @@ a{
   flex-direction:column;
 }
 
-@media (max-width: 900px){
+@media (max-width: 500px){
   .skill-container-left{
-    width:100%;
+    width:70%;
   }
 } 
 
@@ -585,9 +591,9 @@ a{
   justify-content: center;
 }
 
-@media (max-width: 900px){
+@media (max-width: 500px){
   .skill-container-right{
-    width:100%;
+    width:70%;
   }
 } 
 
@@ -602,10 +608,11 @@ a{
   overflow-y:hidden;
 }
 
-@media (max-width: 900px){
+@media (max-width: 500px){
   .skill-fade-text{
-    bottom: -20%;
-    right: 0;
+    font-size:5rem;
+    bottom: -7%;
+    left: 0;
   }
 } 
 
@@ -687,6 +694,12 @@ a{
   margin: 2rem 5rem;
 }
 
+@media (max-width: 500px) {
+  .form{
+    margin-left: 0;
+  }
+}
+
 .formfield-container{
   width:100%;
 }
@@ -723,6 +736,26 @@ a{
   font-size:1.5rem;
 }
 
+.saperate-contact{
+  display: flex;
+  justify-content: space-between;
+}
+
+.saperate-btn{
+  border:none;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 500px) {
+  .saperate-contact{
+    flex-wrap: wrap;
+  }
+  .directlymailme{
+    margin-bottom: 30px;
+  }
+}
+
 footer{
   position:relative;
   margin-top:-1px;
@@ -747,6 +780,12 @@ footer{
   font-size:5em;
 }
 
+@media (max-width: 500px) {
+  .footer-faded-text{
+    font-size: 2rem;
+  }
+}
+
 .link-wrapper{
   display:flex;
   gap:1.2rem;
@@ -765,20 +804,6 @@ footer{
 .icon-wrapper{
   display:flex;
   gap:1rem;
-}
-
-.saperate-contact{
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (max-width: 900px) {
-  .saperate-contact{
-    flex-wrap: wrap;
-  }
-  .directlymailme{
-    margin-bottom: 30px;
-  }
 }
 
 .combinedDiv{
