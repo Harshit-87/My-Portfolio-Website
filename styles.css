@@ -356,6 +356,12 @@ a{
     box-shadow:0px 0px 40px #1f1f1f;
   }
 
+  @media (max-width: 500px) {
+    .project-card{
+      width: 100%;
+    }
+  }
+
   .project-card::after{
     content:"";
     position:absolute;
@@ -437,7 +443,13 @@ a{
     display:flex;
     gap:10px;
     flex-wrap:wrap;
-  
+  }
+
+  @media (max-width: 500px) {
+    .project-skills-container{
+      width: 100%;
+      flex-wrap: nowrap;
+    }
   }
 
   .project-skill{
@@ -455,7 +467,6 @@ a{
     font-size:16px;
     font-style: italic;
   }
-
 
   .btn-grp{
     display:flex;
