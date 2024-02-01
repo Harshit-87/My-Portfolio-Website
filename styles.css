@@ -429,6 +429,19 @@ a{
     transition:all 0.4s;
   }
 
+  @media (max-width: 500px) {
+    .project-content{
+      position:absolute;
+      display:flex;
+      flex-direction:column;
+      color:white;
+      padding:0;
+      bottom:20%;
+      z-index:5;
+      gap:1em;
+      transition:all 0.4s;
+    }
+  }
 
   .project-content-left{ 
     left:10%;
