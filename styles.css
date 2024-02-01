@@ -22,6 +22,12 @@
     margin:0 auto;
 }
 
+@media (max-width: 900px) {
+  .container{
+    width: 500px;
+  }
+}
+
 .navbar{
     display: flex;
     justify-content:space-between;
@@ -29,6 +35,7 @@
 
     padding-top:1rem;
 }
+
 
 .logo{
     width:80px;
@@ -50,6 +57,12 @@
     display:flex;
     gap:2rem;
     padding: 0 4em;
+}
+
+@media (max-width: 900px) {
+  .nav-items{
+    opacity: 0;
+  }
 }
 
 .nav-items div{
@@ -83,6 +96,13 @@ a{
     margin: 4rem auto;
     padding: 0 1rem;
     padding-bottom: 8rem;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 900px) {
+  .hero-section{
+    flex-wrap: wrap-reverse;
+  }
 }
 
 .faded-text{
@@ -95,6 +115,14 @@ a{
     left: -5%;
     font-weight: bold;
     transition: all 3s;
+}
+
+@media (max-width: 900px) {
+  .faded-text{
+    font-size: 3rem;
+    bottom: -5%;
+    left: 2%;
+  }
 }
 
 .hero-section-left{
@@ -527,13 +555,26 @@ a{
     padding:5rem;
     margin:10rem auto;
     gap:30px;
+    flex-wrap: nowrap;
   }
+
+  @media (max-width: 900px){
+    .skills-container{
+      flex-wrap: wrap;
+    }
+  } 
 
 .skill-container-left{
   width:50%;
   display:flex;
   flex-direction:column;
 }
+
+@media (max-width: 900px){
+  .skill-container-left{
+    width:100%;
+  }
+} 
 
 .skill-container-right{
   display:flex;
@@ -544,16 +585,29 @@ a{
   justify-content: center;
 }
 
+@media (max-width: 900px){
+  .skill-container-right{
+    width:100%;
+  }
+} 
+
 .skill-fade-text{
   position:absolute;
   font-size:15em;
   font-style:bold;
   color:rgb(231,231,231);
   bottom:-34.5%;
-  right:-25%;
+  right:0;
   user-select:none;
   overflow-y:hidden;
 }
+
+@media (max-width: 900px){
+  .skill-fade-text{
+    bottom: -20%;
+    right: 0;
+  }
+} 
 
 .blob-style{
   position:absolute;
@@ -664,7 +718,7 @@ a{
   scale:0.9;
 }
 
-.{
+.submit-icon{
   padding:0 1rem;
   font-size:1.5rem;
 }
@@ -682,6 +736,7 @@ footer{
   padding:1.2rem;
   justify-content: space-between;
   align-items:center;
+  flex-wrap: wrap;
 }
 
 .footer-faded-text{
@@ -715,6 +770,15 @@ footer{
 .saperate-contact{
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .saperate-contact{
+    flex-wrap: wrap;
+  }
+  .directlymailme{
+    margin-bottom: 30px;
+  }
 }
 
 .combinedDiv{
