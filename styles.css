@@ -13,6 +13,7 @@
 
 #wrapper{
     height:100vh;
+    width: 100vw;
     overflow-y:auto;
     overflow-x: hidden;
 }
@@ -22,7 +23,7 @@
     margin:0 auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .container{
     width: 350px;
   }
@@ -42,7 +43,7 @@
     padding-right: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .logo{
     height: 75px;
   }
@@ -362,7 +363,7 @@ a{
     box-shadow:0px 0px 40px #1f1f1f;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 900px) {
     .project-card{
       width: 100%;
     }
@@ -435,7 +436,7 @@ a{
     transition:all 0.4s;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 900px) {
     .project-content{
       position:absolute;
       display:flex;
@@ -464,7 +465,7 @@ a{
     flex-wrap:wrap;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 900px) {
     .project-skills-container{
       width: 100%;
       flex-wrap: nowrap;
@@ -594,9 +595,12 @@ a{
     flex-wrap: nowrap;
   }
 
-  @media (max-width: 500px){
+  @media (max-width: 900px){
     .skills-container{
       flex-wrap: wrap;
+      width: 100%;
+      margin: 0;
+      padding: 0;
     }
   } 
 
@@ -606,9 +610,11 @@ a{
   flex-direction:column;
 }
 
-@media (max-width: 500px){
+@media (max-width: 900px){
   .skill-container-left{
-    width:70%;
+    width:100%;
+    padding: 2rem 0rem 2rem 2rem;
+    
   }
 } 
 
@@ -621,9 +627,10 @@ a{
   justify-content: center;
 }
 
-@media (max-width: 500px){
+@media (max-width: 900px){
   .skill-container-right{
-    width:70%;
+    width:100%;
+    padding: 2rem 2rem 2rem 2rem;
   }
 } 
 
@@ -638,10 +645,10 @@ a{
   overflow-y:hidden;
 }
 
-@media (max-width: 500px){
+@media (max-width: 900px){
   .skill-fade-text{
-    font-size:5rem;
-    bottom: -7%;
+    font-size:3rem;
+    bottom: -1%;
     left: 0;
   }
 } 
@@ -724,7 +731,7 @@ a{
   margin: 2rem 5rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .form{
     margin-left: 0;
   }
@@ -777,7 +784,7 @@ a{
   margin: 1rem 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .saperate-contact{
     flex-wrap: wrap;
   }
@@ -810,7 +817,7 @@ footer{
   font-size:5em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .footer-faded-text{
     font-size: 2rem;
   }
