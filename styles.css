@@ -776,6 +776,7 @@ a{
 .saperate-contact{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .saperate-btn{
@@ -784,10 +785,11 @@ a{
   margin: 1rem 0;
 }
 
+.saperate-btn-left{
+  margin-right: 1rem;
+}
+
 @media (max-width: 900px) {
-  .saperate-contact{
-    flex-wrap: wrap;
-  }
   .directlymailme{
     margin-bottom: 30px;
   }
