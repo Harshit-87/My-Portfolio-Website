@@ -845,5 +845,14 @@ footer{
 
 .combinedDiv{
   display: flex;
+  flex-wrap: wrap;
   gap: 2px;
+}
+
+.btn-width{
+  width: 100px;
+}
+
+.btn-width:hover{
+  scale:0.9;
 }
