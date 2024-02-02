@@ -869,10 +869,35 @@ footer{
   gap: 2px;
 }
 
+.icon {
+  cursor: pointer;
+  height: 4rem;
+  margin-right: 2px;
+}
+
+@media (max-width:1000px) {
+  .icon{
+    height: 3rem;
+  }
+}
+
+.icon3{
+  background-color: black;
+  border-radius: 100%;
+}
+
 .btn-width{
-  width: 100px;
+  width: 118px;
 }
 
 .btn-width:hover{
   scale:0.9;
+}
+
+.CVButton:hover{
+  scale:0.9;
+}
+
+.animate:hover{
+  scale:0.7;
 }
