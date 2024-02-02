@@ -117,11 +117,11 @@ a{
     user-select:none;
     font-size: 7em;
     color:rgb(231,231,231);
-    
     bottom: -16%;
     left: -5%;
     font-weight: bold;
     transition: all 3s;
+    z-index: -100;
 }
 
 @media (max-width: 900px) {
@@ -131,6 +131,13 @@ a{
     left: 2%;
   }
 }
+
+@media (min-width: 901px) and (max-width: 1200px){
+  .faded-text{
+    font-size:5rem;
+    bottom: -10%;
+  }
+} 
 
 .hero-section-left{
     /* width:100%; */
@@ -211,12 +218,6 @@ a{
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
   }
-
-  /* @media (max-width: 500px) {
-    .user-image{
-      width: 70%;
-    }
-  } */
 
   .user-image img{
     z-index:-9;
@@ -639,10 +640,11 @@ a{
   font-size:15em;
   font-style:bold;
   color:rgb(231,231,231);
-  bottom:-34.5%;
+  bottom:-30%;
   right:0;
   user-select:none;
   overflow-y:hidden;
+  z-index: -100;
 }
 
 @media (max-width: 900px){
@@ -650,6 +652,14 @@ a{
     font-size:3rem;
     bottom: -1%;
     left: 0;
+  }
+} 
+
+@media (min-width: 901px) and (max-width: 1200px){
+  .skill-fade-text{
+    font-size:12rem;
+    bottom:-20%;
+    right:0;
   }
 } 
 
