@@ -881,6 +881,12 @@ footer{
   }
 }
 
+@media (max-width:500px) {
+  .icon{
+    height: 2.5rem;
+  }
+}
+
 .icon3{
   background-color: black;
   border-radius: 100%;
