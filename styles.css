@@ -830,6 +830,15 @@ footer{
   gap:1.2rem;
 }
 
+@media (max-width: 500px) {
+  .link-wrapper{
+    position: absolute;
+    margin-left: 15%;
+    left: 5%;
+    top: 20%;
+  }
+}
+
 .link-wrapper div a{
   color:white;
   text-decoration:none;
@@ -843,6 +852,15 @@ footer{
 .icon-wrapper{
   display:flex;
   gap:1rem;
+}
+
+@media (max-width: 500px) {
+  .icon-wrapper{
+    position: absolute;
+    margin-left: 15%;
+    left: 5%;
+    top: 40%;
+  }
 }
 
 .combinedDiv{
